@@ -1,0 +1,82 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #df8e58;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.white-text {
+  color: white;
+}
+
+.background-black {
+  background: black;
+}
+
+#repos-list {
+  display: flex;
+  flex-direction: column;
+}
+
+button,
+button:focus {
+  width: 100px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 14px;
+  margin: 10px auto;
+  cursor: pointer;
+  background-color: black;
+  outline: none;
+  color: whitesmoke;
+}
+
+button:hover {
+  background-color: rgb(56, 56, 56);
+}
+
+button:active {
+  box-shadow: none;
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+.square-avatar {
+  border-radius: 14px;
+  transition: border-radius 1s linear;
+}
+
+.circle-avatar {
+  border-radius: 50%;
+  transition: border-radius 1s linear;
+}
